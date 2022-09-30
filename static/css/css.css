@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+    font-family: sans-serif;
+    align-content: center;
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+      color: white;
+    font: normal 32px/1.6 system-ui, sans-serif;
+      text-shadow: 
+    
+}
+
+
+th{
+    border: solid 2px rgb(158, 131, 82);
+}
+
+.button {
+    display: block;
+    width: 75px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #ff9e28;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    
+}
+.button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
