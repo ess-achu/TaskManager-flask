@@ -3,15 +3,8 @@ body{
     font-family: sans-serif;
     align-content: center;
     background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
-      color: white;
+    color: white;
     font: normal 32px/1.6 system-ui, sans-serif;
-      text-shadow: 
-    
-}
-
-
-th{
-    border: solid 2px rgb(158, 131, 82);
 }
 
 .button {
@@ -32,4 +25,51 @@ th{
     background-color: transparent;
     border-color: #fff;
     transition: all .1s ease-in-out;
-  }
+}
+input {
+	font-family: inherit;
+	line-height:inherit;
+	color:#2e3750;
+	min-width:12em;
+}
+
+::placeholder {
+	color:#cbd0d5;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: black;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
